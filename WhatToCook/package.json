@@ -1,14 +1,12 @@
 {
   "name": "wtcdeploy",
   "version": "1.0.0",
-  "description": "[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)",
-  "main": "index.js",
+  "description": "generate html from markdown",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "fs-extra": "^1.0.0",
     "markdown-to-html": "0.0.13"
   }
 }
