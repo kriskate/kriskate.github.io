@@ -1,9 +1,9 @@
 {
-  "name": "wtcdeploy",
+  "name": "deploy",
   "version": "1.0.0",
   "description": "generate html from markdown",
   "scripts": {
-    "start": "node index.js"
+    "wtc": "node index.js"
   },
   "dependencies": {
     "fs-extra": "^1.0.0",
